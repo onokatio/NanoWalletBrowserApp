@@ -21,9 +21,9 @@ $ make
 
 もし特定のブラウザアプリ・アドオンだけをビルドしたいときは、以下のように入力してください。
 ```
-$ make chrome_app #chromeアプリ版
+$ make chrome_app       #chromeアプリ版
 $ make chrome_extension #chrome拡張機能版
-$ make firefox #firefoxアドオン版
+$ make firefox          #firefoxアドオン版
 ```
 ## インストールの仕方
 ### Chrome アプリ
