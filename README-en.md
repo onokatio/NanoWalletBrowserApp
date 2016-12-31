@@ -34,11 +34,11 @@ $ make firefox            #for firefox addon
 3. That's all. You can lunch nano wallet at chrome://apps/ .
 
 ### Chrome extension
-1. chrome://extensions/ をブラウザで開いてください。
+1. Open chrome://extensions/ by chrome.
 2. Drag and drop dist/chrome_extension.crx into browser.
 3. That's all. Clicking icon,You can lunch nano wallet.
 
 ※Chrome extension may use also Microsoft Edge, Opera and Vivaldi.
-### Firefox アドオン
+### Firefox addon
 coming soon.
 
