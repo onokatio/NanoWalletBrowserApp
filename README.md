@@ -7,6 +7,7 @@
 ## これは何？
 New Economy Movementの総合管理ソフト「Nano Wallet」を、様々なブラウザでアプリ・アドオンとして動作させるためのものです。
 ## 対応ブラウザ
+This require wget command. so this does not work on windows and osx.
 
 |ブラウザ        |状況                  |
 |:-------------:|:--------------------:|
