@@ -1,4 +1,4 @@
-## NanoWalletBrowserApp
+# NanoWalletBrowserApp
 
 ### これは何？
 New Economy Movementの総合管理ソフト「Nano Wallet」を、様々なブラウザでアプリ・アドオンとして動作させるためのものです。
