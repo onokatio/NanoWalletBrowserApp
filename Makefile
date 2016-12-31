@@ -1,6 +1,11 @@
 allmake: dist/chrome_app.crx dist/chrome_extension.crx
+chrome_app: dist/chrome_app.crx
+chrome_extension: dist/chrome_extension.crx
 
-dist/chrome_app.crx: src/mijin.io
+clean:
+	$(RM) -rf dist/*
+	
+dist/chrome_app.crx: src/mijin.io 
 	mkdir -p dist/chrome_app
 	cp -R src/mijin.io dist/chrome_app/
 	cp src/chrome_app/background.js dist/chrome_app
@@ -8,18 +13,15 @@ dist/chrome_app.crx: src/mijin.io
 	cp src/logo16.png dist/chrome_app
 	cp src/logo128.png dist/chrome_app
 	google-chrome --pack-extension=$(shell pwd)/dist/chrome_app
-	$(RM) -rf dist/chrome_app
 	$(RM) dist/chrome_app.pem
 
-dist/chrome_extension.crx: src/mijin.io
+dist/chrome_extension.crx: src/mijin.io src/chrome_extension/bg.js src/chrome_extension/manifest.json
 	mkdir -p dist/chrome_extension
 	cp -R src/mijin.io dist/chrome_extension/
 	cp src/chrome_extension/manifest.json dist/chrome_extension
 	cp src/chrome_extension/bg.js dist/chrome_extension
-	cp src/logo16.png dist/chrome_extension
 	cp src/logo128.png dist/chrome_extension
 	google-chrome --pack-extension=$(shell pwd)/dist/chrome_extension
-	$(RM) -rf dist/chrome_extension
 	$(RM) dist/chrome_extension.pem
 
 src/mijin.io:
