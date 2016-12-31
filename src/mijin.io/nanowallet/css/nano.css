@@ -1032,4 +1032,4 @@ border-bottom-color: transparent;
 .explorer-namespaces-mosaics-page .explorerNav .list-group-item.active:hover {
 	color: white;
 	background-color: #444;
-}
+}html {overflow-y:scroll;}
