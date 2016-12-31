@@ -15,4 +15,8 @@ $ make
 3. ダイアログ通りに進めれば完了です。 chrome://apps/ から起動することができます。またパソコンのスタートメニューやDashにも自動的に追加されます。
 
 ### Chrome 拡張機能
+作成中
+※なお、Chrome拡張はMicrosoft Edge,Opera,Vivaldiで、開発中ですが動作するとの報告があります。
 ### Firefox アドオン
+作成中
+
