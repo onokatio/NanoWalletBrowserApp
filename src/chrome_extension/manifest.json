@@ -1,8 +1,3 @@
-{
-	"name": "NEM-NanoWallet",
-	"description": "NEM NanoWallet for browser app",
-	"version": "0.0.1",
-	"manifest_version": 2,
 	"options_page": "mijin.io/nanowallet/start.html",
 	"permissions": ["tabs"],
 	"background": {
@@ -11,6 +6,5 @@
 	},
 	"browser_action": {
 		"default_title": "NanoWallet"
-	},
-	"icons": { "128": "logo128.png" }
+	}
 }

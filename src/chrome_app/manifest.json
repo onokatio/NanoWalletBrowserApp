@@ -1,12 +1,6 @@
-{
-	"name": "NEM-NanoWallet",
-	"description": "NEM NanoWallet for browser app",
-	"version": "0.0.1",
-	"manifest_version": 2,
 	"app": {
 		"background": {
 			"scripts": ["background.js"]
 		}
-	},
-	"icons": { "16": "logo16.png", "128": "logo128.png"}
+	}
 }
