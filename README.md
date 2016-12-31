@@ -16,7 +16,7 @@ $ make
 
 ### Chrome 拡張機能
 作成中
-※なお、Chrome拡張はMicrosoft Edge,Opera,Vivaldiで、開発中ですが動作するとの報告があります。
+※なお、Chrome拡張機能はMicrosoft Edge,Opera,Vivaldiで、開発中ですが動作するとの報告があります。
 ### Firefox アドオン
 作成中
 
