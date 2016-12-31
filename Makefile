@@ -1,6 +1,7 @@
 make: dist/chrome_app.crx
 
 dist/chrome_app.crx: src/mijin.io src/chrome_app/background.js src/chrome_app/manifest.json src/logo16.png src/logo128.png
+	test ! -e dist && mkdir dist
 	cp -R src/mijin.io dist/chrome_app/
 	cp src/chrome_app/background.js dist/chrome_app
 	cp src/chrome_app/manifest.json dist/chrome_app
