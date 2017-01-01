@@ -1,4 +1,4 @@
-	"options_page": "mijin.io/nanowallet/start.html",
+	"options_page": "build/start.html",
 	"permissions": ["tabs"],
 	"background": {
 		"persistant": false,

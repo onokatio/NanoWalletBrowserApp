@@ -6,7 +6,7 @@
 This make browser addon and extensions for use New Economy Movement nanowallet by your browser.
 
 ## Support
-This require wget command. so this does not work on windows and osx.
+To build,require GNU make, npm, nodejs, gulp.
 
 |Browser          |Progress                      |
 |:---------------:|:----------------------------:|

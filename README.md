@@ -7,15 +7,17 @@
 ## これは何？
 New Economy Movementの総合管理ソフト「Nano Wallet」を、様々なブラウザでアプリ・アドオンとして動作させるためのものです。
 ## 対応ブラウザ
-This require wget command. so this does not work on windows and osx.
+
 
 |ブラウザ        |状況                  |
 |:-------------:|:--------------------:|
 |Chrome アプリ   |一応動く               |
 |Chrome 拡張機能|一応動く               |
-|Firefox アドオン|作ってない。今からつくるお|
+|Firefox アドオン|作成中                 |
 
 ## ビルドの仕方
+※ビルドには、GNU make、npm、nodejs、gulpが必要です。
+
 ダウンロードしたら、makeしてください。何も指定せずにmakeすると、dist/にブラウザアプリ・アドオンのインストール形式のファイルが生成されます。
 
 ```
