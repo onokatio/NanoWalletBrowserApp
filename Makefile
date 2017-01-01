@@ -11,6 +11,7 @@ dist/chrome_app.crx: src/NanoWallet/build src/chrome_app/background.js src/chrom
 	cat src/header.json > dist/chrome_app/manifest.json
 	cat src/chrome_app/manifest.json >> dist/chrome_app/manifest.json
 	google-chrome --pack-extension=$(shell pwd)/dist/chrome_app
+	$(RM) -rf dist/chrome_app
 	$(RM) dist/chrome_app.pem
 
 dist/chrome_extension.crx: src/NanoWallet/build src/chrome_extension/bg.js src/chrome_extension/manifest.json src/logo128.png
@@ -19,6 +20,7 @@ dist/chrome_extension.crx: src/NanoWallet/build src/chrome_extension/bg.js src/c
 	cat src/header.json > dist/chrome_extension/manifest.json
 	cat src/chrome_extension/manifest.json >> dist/chrome_extension/manifest.json
 	google-chrome --pack-extension=$(shell pwd)/dist/chrome_extension
+	$(RM) -rf dist/chrome_extension
 	$(RM) dist/chrome_extension.pem
 
 src/NanoWallet/build:
