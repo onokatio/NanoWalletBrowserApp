@@ -27,18 +27,4 @@ $ make chrome_app         #for chrome app
 $ make chrome_extension   #for chrome extension
 $ make firefox            #for firefox addon
 ```
-## how to install
-### Chrome app
-1. Open chrome://extensions/ by chrome.
-2. Drag and drop dist/chrome_app.crx into browser.
-3. That's all. You can lunch nano wallet at chrome://apps/ .
-
-### Chrome extension
-1. Open chrome://extensions/ by chrome.
-2. Drag and drop dist/chrome_extension.crx into browser.
-3. That's all. Clicking icon,You can lunch nano wallet.
-
-※Chrome extension may use also Microsoft Edge, Opera and Vivaldi.
-### Firefox addon
-coming soon.
 
