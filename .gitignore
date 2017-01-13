@@ -1,1 +1,2 @@
-src/NanoWallet
+src/common/NanoWallet
+dist/

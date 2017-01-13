@@ -1,0 +1,7 @@
+	"name": "NanoWallet(Chrome App)",
+	"app": {
+		"background": {
+			"scripts": ["bg.js"]
+		}
+	}
+}

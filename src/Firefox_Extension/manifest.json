@@ -1,0 +1,6 @@
+	"name": "NanoWallet(Firefox Extension)",
+	"browser_action": {
+		"default_title": "NanoWallet"
+	}
+
+}

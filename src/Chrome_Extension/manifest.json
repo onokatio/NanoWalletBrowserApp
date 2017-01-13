@@ -1,0 +1,11 @@
+	"name": "NanoWallet(Chrome Extension)",
+	"options_page": "build/start.html",
+	"permissions": ["tabs"],
+	"background": {
+		"persistant": false,
+		"scripts": ["bg.js"]
+	},
+	"browser_action": {
+		"default_title": "NanoWallet"
+	}
+}
