@@ -1,0 +1,3 @@
+[submodule "NEMLogos"]
+	path = NEMLogos
+	url = https://github.com/onokatio/NEMLogos.git

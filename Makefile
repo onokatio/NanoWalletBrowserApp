@@ -1,4 +1,4 @@
-REQUIRE = src/NanoWallet/build src/common/logo*.png
+REQUIRE = src/common/NanoWallet/build src/common/logo*.png
 
 
 allmake: chrome_app chrome_extension
@@ -32,7 +32,7 @@ src/common/NanoWallet/build:
 	cd NanoWallet && \
 	npm install && \
 	gulp
-	
+
 ##########################################
 #### use this if you can not use gulp.####
 #
