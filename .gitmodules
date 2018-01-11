@@ -1,3 +1,6 @@
 [submodule "NEMLogos"]
 	path = NEMLogos
 	url = https://github.com/onokatio/NEMLogos.git
+[submodule "NanoWallet"]
+	path = NanoWallet
+	url = https://github.com/NemProject/NanoWallet

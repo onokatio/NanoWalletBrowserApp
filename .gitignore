@@ -1,2 +1,3 @@
-src/common/NanoWallet
-dist/
+/src/common/NanoWallet
+/dist/
+/chrome/build
