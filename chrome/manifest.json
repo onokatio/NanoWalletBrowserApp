@@ -1,7 +1,7 @@
 {
         "name": "NEM NanoWallet",
         "description": "NEM NanoWallet for browser extension.",
-        "version": "0.0.2",
+        "version": "2.1.2",
         "manifest_version": 2,
         "icons": {
                 "16": "logo16.png",
